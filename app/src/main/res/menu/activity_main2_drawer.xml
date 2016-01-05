@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/vertical_recyclerview"
+            android:title="Vertical RecyclerView" />
+        <item
+            android:id="@+id/horizontal_recyclerview"
+            android:title="Horizontal RecyclerView" />
+        <item
+            android:id="@+id/vertical_grid_recyclerview"
+            android:title="Vertical Grid RecyclerView" />
+        <item
+            android:id="@+id/horizontal_grid_recyclerview"
+            android:title="Horizontal Grid RecyclerView" />
+        <item
+            android:id="@+id/vertical_staggered_recyclerview"
+            android:title="Vertical Staggered RecyclerView" />
+        <item
+            android:id="@+id/horizontal_staggered_recyclerview"
+            android:title="Horizontal Staggered RecyclerView" />
+
+    </group>
+</menu>

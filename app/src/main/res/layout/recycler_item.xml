@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:minWidth="100dp"
+    android:minHeight="70dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dip">
+
+<TextView
+    android:id="@+id/tvText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="70dp"
+    android:minWidth="100dp"
+    android:background="#536DFE"
+    android:paddingBottom="5dp"
+    android:textSize="25sp"
+    android:paddingLeft="5dp"
+    android:paddingRight="40dp"
+    android:paddingTop="5dp"
+    />
+
+    <ImageButton
+        android:id="@+id/ibtnDel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/tvText"
+        android:layout_alignTop="@id/tvText"
+        android:layout_alignBottom="@id/tvText"
+        android:src="@android:drawable/ic_delete"
+        android:background="#536DFE"
+        />
+    </RelativeLayout>
+
