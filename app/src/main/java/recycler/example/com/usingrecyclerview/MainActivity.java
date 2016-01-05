@@ -72,10 +72,12 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
+        getSupportActionBar().setTitle(item.getTitle());
         int id = item.getItemId();
 
         if (id == R.id.vertical_recyclerview) {
             mFragment.changeRecyclerViewTo(RecyclerViewFragment.VERTICAL_LIST);
+
         } else if (id == R.id.horizontal_recyclerview) {
             mFragment.changeRecyclerViewTo(RecyclerViewFragment.HORIZONTAL_LIST);
         } else if (id == R.id.vertical_grid_recyclerview) {
